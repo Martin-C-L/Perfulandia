@@ -4,8 +4,8 @@ import random
 
 # Configuración de la ventana
 wn = turtle.Screen()
-wn.title("Juego de Snake Osi Osi")
-wn.bgcolor("purple")
+wn.title("Juego de Snake Osi Osi omegalol omg nudea")
+wn.bgcolor("black")
 wn.setup(width=660, height=660)
 wn.tracer(0)  # Desactiva la actualización automática de la pantalla
 
@@ -23,7 +23,7 @@ for i in range(3):
 # Comida
 comida = turtle.Turtle()
 comida.speed(0)
-comida.shape("circle")
+comida.shape("triangle")
 comida.color("red")
 comida.penup()
 comida.goto(0, 100)
