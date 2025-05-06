@@ -4,9 +4,9 @@ import random
 
 # Configuración de la ventana
 wn = turtle.Screen()
-wn.title("Juego de Snake Osi Osi omegalol omg nudea")
-wn.bgcolor("black")
-wn.setup(width=660, height=660)
+wn.title("Juego de Snake")
+wn.bgcolor("green")
+wn.setup(width=700, height=700)
 wn.tracer(0)  # Desactiva la actualización automática de la pantalla
 
 # Serpiente
@@ -14,7 +14,7 @@ serpiente = []
 for i in range(3):
     segmento = turtle.Turtle()
     segmento.speed(0)
-    segmento.shape("circle")
+    segmento.shape("square")
     segmento.color("white")
     segmento.penup()
     segmento.goto(-20 * i, 0)
@@ -23,7 +23,7 @@ for i in range(3):
 # Comida
 comida = turtle.Turtle()
 comida.speed(0)
-comida.shape("triangle")
+comida.shape("circle")
 comida.color("red")
 comida.penup()
 comida.goto(0, 100)
@@ -72,8 +72,8 @@ while True:
         # Agregar un nuevo segmento a la serpiente
         nuevo_segmento = turtle.Turtle()
         nuevo_segmento.speed(0)
-        nuevo_segmento.shape("circle")
-        nuevo_segmento.color("white")
+        nuevo_segmento.shape("square")
+        nuevo_segmento.color("grey")
         nuevo_segmento.penup()
         serpiente.append(nuevo_segmento)
 
