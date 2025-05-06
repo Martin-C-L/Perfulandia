@@ -4,9 +4,9 @@ import random
 
 # Configuración de la ventana
 wn = turtle.Screen()
-wn.title("Juego de Snake")
-wn.bgcolor("black")
-wn.setup(width=600, height=600)
+wn.title("Juego de Snake Osi Osi")
+wn.bgcolor("purple")
+wn.setup(width=660, height=660)
 wn.tracer(0)  # Desactiva la actualización automática de la pantalla
 
 # Serpiente
