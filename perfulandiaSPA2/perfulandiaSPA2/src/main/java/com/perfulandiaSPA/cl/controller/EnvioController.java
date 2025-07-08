@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v4/enviossss")
+@RequestMapping("/api/v4/envios")
 public class EnvioController {
 
     @Autowired
@@ -20,7 +20,7 @@ public class EnvioController {
     public ResponseEntity<List<Envio>> listarEnvios() {
         List<Envio> envios = envioService.findAll();
         if (envios.isEmpty()) {
-            return ResponseEntity.noContent().build(); // 204 No Content
+            return ResponseEntity.noContent().build(); // 204 No Contentssss
         }
         return ResponseEntity.ok(envios); // 200 OK
     }
