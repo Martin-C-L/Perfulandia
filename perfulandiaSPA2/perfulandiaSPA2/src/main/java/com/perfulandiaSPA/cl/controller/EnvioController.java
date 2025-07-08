@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v4/envios")
+@RequestMapping("/api/v4/enviosssss")
 public class EnvioController {
 
     @Autowired
