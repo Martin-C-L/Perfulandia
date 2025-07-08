@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+<<<<<<< Updated upstream
 @RequestMapping("/api/v4/envios")
+=======
+@RequestMapping("/api/v4/enviosss")
+>>>>>>> Stashed changes
 public class EnvioController {
 
     @Autowired
